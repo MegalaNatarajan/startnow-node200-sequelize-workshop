@@ -1,0 +1,26 @@
+{
+  "name": "mongoose-sampling",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server/index.js",
+    "test": "mocha test/**/*.spec.js",
+    "submit": "mocha test/submission.spec.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "mocha": "^3.5.0",
+    "chai": "^4.1.2",
+    "chai-http": "^3.0.0"
+  },
+  "dependencies": {
+    "bluebird": "^3.5.0",
+    "body-parser": "^1.18.1",
+    "express": "^4.15.4",
+    "mysql2": "^1.4.2",
+    "sequelize": "^4.8.4",
+    "sequelize-cli": "^3.0.0-3"
+  }
+}
